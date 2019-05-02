@@ -46,7 +46,9 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				
+				<properties>
+                                    <env>${env}</env>
+                                   </properties>
 				</configuration>
 			</plugin>
 			
